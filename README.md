@@ -221,20 +221,9 @@ resource "azurerm_linux_web_app" "wa1" {
 4. Test the deployment
 5. Submit a pull request
 
-## 📞 Support
-
-For issues and questions:
-- Create an issue in this repository
-- Check Azure documentation for service-specific questions
-- Review Terraform Azure provider documentation
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ---
 
-**Author**: [Your Name]  
+**Author**: Shubham Ingle
 **Last Updated**: December 2024  
 **Terraform Version**: >= 1.5.7  
 **Azure Provider Version**: ~> 4.0# terraform-azure-app-service
