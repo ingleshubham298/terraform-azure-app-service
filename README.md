@@ -213,7 +213,7 @@ resource "azurerm_linux_web_app" "wa1" {
 
 ---
 
-**Author**: Shubham Ingle
+**Author**: Shubham Ingle     
 **Last Updated**: December 2024  
 **Terraform Version**: >= 1.5.7  
 **Azure Provider Version**: ~> 4.0# terraform-azure-app-service
