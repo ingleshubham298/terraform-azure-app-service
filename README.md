@@ -160,16 +160,6 @@ az webapp deployment source sync \
   --slot webapp-slot
 ```
 
-## 📊 Cost Estimation
-
-**Monthly Cost Breakdown (Approximate)**:
-- App Service Plan (S1): ~$73 USD/month
-- Web App: Included in App Service Plan
-- Deployment Slot: Included in S1 tier
-- **Total**: ~$73 USD/month
-
-*Costs may vary based on usage, data transfer, and Azure region.*
-
 ## 🔒 Security Considerations
 
 - Source control uses manual integration (webhooks disabled)
@@ -223,7 +213,7 @@ resource "azurerm_linux_web_app" "wa1" {
 
 ---
 
-**Author**: Shubham Ingle
+**Author**: Shubham Ingle 
 **Last Updated**: December 2024  
 **Terraform Version**: >= 1.5.7  
 **Azure Provider Version**: ~> 4.0# terraform-azure-app-service
